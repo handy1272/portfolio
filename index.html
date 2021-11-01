@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPortfolio</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/script.js"></script>
+  
+  <!-- iScroll.js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+  <!-- google font -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,700,400' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="header">
+    <div class="header__inner">
+      <h1 class="header__inner--logo"><a href="/"><img src="./img/logo.png" alt=""></a></h1>
+      <ul class="header__inner--nav">
+        <li><a href="#aboutme" class="is-active">About me</a></li>
+        <li><a href="#profile" class="is-active">Profile</a></li>
+        <li><a href="#skills" class="is-active">Skills</a></li>
+        <li><a href="#contact" class="is-active">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="drawer drawer--right">
+      <header role="banner">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav" role="navigation">
+          <ul class="drawer-menu">
+            <li><a class="drawer-menu-item" href="#aboutme">About me</a></li>
+            <li><a class="drawer-menu-item" href="#profile">Profile</a></li>
+            <li><a class="drawer-menu-item" href="#skills">Skills</a></li>
+            <li><a class="drawer-menu-item" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main role="main">
+        <!-- Page content -->
+      </main>
+    </div>
+
+  </div>
+
+  <!-- main -->
+  <main>
+    <!-- top -->
+    <section class="top">
+      <div class="top__visual"><img src="./img/top.jpg" alt=""></div>
+      <h1 class="top__title">My Portfolio</h1>
+    </section>
+
+    <!-- About me -->
+    <section id="aboutme" class="aboutme">
+      <div class="container">
+        <h2>ABOUT ME</h2>
+        <div class="aboutme__wrapper">
+          <img src="./img/aboutme.jpeg" alt="プロフィール画像">
+          <p class="aboutme__text">
+            宮崎県出身、奈良県在住の23歳（男）。農業高校で農業土木を学んだのち、近畿農政局に就職し主に公共工事や設計業務の施工管理に従事しています。趣味の一環でワードプレスを使用し映画ブログを投稿していたことをきっかけに、WEB学習サイト（Progate、デイトラ）でHTML、CSS、JavaScript(jQuery)を学び始めました。現在はPHPの学習も行なっており、ワードプレスのテーマやECサイト作成にも挑戦したいと考えております。<br>学習の中で作成したWEBサイトはありますが、制作実績と呼べるほどのものではありません。そのため、今まで学習したスキルを使用して本サイトを作成しましたのでご覧ください。
+            
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile -->
+    <div id="profile" class="profile">
+      <div class="container">
+        <h2 class="profile__title title">Profile</h2>
+
+        <div class="profile__wrapper">
+          <div class="profile__box">
+            <div class="profile__box--content">
+              <img src="./img/profile1.jpg" alt="" class="scroll fadein">
+              <p class="scroll fadein"><span>1998年</span><br>宮崎県三股町で４人兄弟の３番目（長男）に生まれる。</p>
+            </div>
+
+            <div class="profile__box--content">
+              <img src="./img/profile2.jpg" alt="" class="scroll fadein">
+              <p class="scroll fadein"><span>2012年（中学生時代）</span><br>中学生の頃、小学３年生から始めたバスケットボールで県大会優勝、九州大会に出場する。</p>
+            </div>
+
+            <div class="profile__box--content">
+              <img src="./img/profile3.jpg" alt="" class="scroll fadein">
+              <p class="scroll fadein">
+                <span>2014年（高校進学）</span><br>将来やりたい事が特に決まっていなかったため、とりあえず給料が安定した公務員になろうと決め、都城農業高校（農業土木科）へ入学。
+              </p>
+            </div>
+
+            <div class="profile__box--content">
+              <img src="./img/profile4.jpeg" alt="" class="scroll fadein">
+              <p class="scroll fadein">
+                <span>2016年（高校時代）</span><br>バスケ部で活動しながら、公務員試験の勉強に励む。人生で一番勉強を頑張り、その努力が実を結び、高校3年冬に農林水産省近畿農政局の内定を貰う。
+              </p>
+            </div>
+
+            <div class="profile__box--content">
+              <img src="./img/profile5.webp" alt="" class="scroll fadein">
+              <p class="scroll fadein">
+                <span>2017年（社会人）</span><br>農林水産省近畿農政局へ入省。主に公共工事の発注や工事に必要な調査業務、設計業務の発注を行い、発注後は受注者とコミュニケーションを取りながら業務を進めていきます。
+              </p>
+            </div>
+
+            <div class="profile__box--content">
+              <img src="./img/profile6.jpeg" alt="" class="scroll fadein">
+              <p class="scroll fadein"><span>2020年</span><br>ワードプレスでのブログ投稿をきっかけにWEB制作に興味を持ち始め、WEB学習サイトでHTML、CSS、JavaScriptの勉強を始める。</p>
+            </div>
+
+            <div class="profile__box--content">
+              <img src="./img/profile7.jpeg" alt="" class="scroll fadein">
+              <p class="scroll fadein"><span>2021年（現在）</span><br>HTML、CSS、Javascriptの基礎的な知識を身につける。これまで特段やりたい事が無かった人生だったが、初めて、「コーダーとして仕事をしたい！」と強く思うようになり、転職することを決意する。</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="skills">
+      <div class="container">
+        <h2 class="skills__title title">Skills</h2>
+        <div class="skills__wrapper">
+          <div class="skills__wrapper--box">
+            <h3>HTML</h3>
+            <img class="img" src="./img/skills_html.png" alt="">
+            <p class="level">★★★☆☆</p>
+            <p class="text">基礎的なコーディングができ、レスポンシブサイトの実装も可能です。本サイト作成に40時間ほどかかってしまったため、短い時間で且つ保守しやすいようにきれいなコードが書けるよう日々勉強中です。</p>
+          </div>
+          <div class="skills__wrapper--box">
+            <h3>CSS</h3>
+            <img src="./img/skills_css.png" alt="">
+            <p class="level">★★★☆☆</p>
+            <p class="text">BootstrapやSassでのコーディングができます。主にSassでコーディングすることが多く、XDデザインからのコーディングについても学びました。今後はCSS設計についても勉強していきたいと考えています。</p>
+          </div>
+          <div class="skills__wrapper--box">
+            <h3>javascript</h3>
+            <img src="./img/skills_js.png" alt="">
+            <p class="level">★★☆☆☆</p>
+            <p class="text">JavaScriptの基礎は理解しており、主にjQueryでのコーディングを学んできました。サイトに動きを付けたり、プラグインを使ってスライドショーを実装したりなど基本的なスキルは身につけています。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="contact">
+      <div class="container">
+        <h2 class="contact__title title">Contact</h2>
+        <div class="contact__form">
+          <form method="POST" action="mailto:y.handai1272@gamil.com" enctype="text/plain">
+            <div class="input__top">
+              <input type="text" placeholder="Name" class="name">
+              <input type="text" placeholder="Email" class="email">
+            </div>
+
+            <div class="input__bottom">
+              <input type="text" placeholder="Message" class="message">
+            </div>
+
+            <div class="input__button">
+              <button type="submit" value="送信">SEND</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- closing banner -->
+    <div class="closing__banner">
+      <h2>Thank you for reading</h2>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="copyright">
+      <p>© 2021 Yamato Handai</p>
+    </div>
+  </footer>
+</body>
+
+</html>
