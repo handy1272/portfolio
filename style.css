@@ -181,11 +181,11 @@
   text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8);
   border-left: solid rgba(8, 99, 38, 0.9);
   color: #ffff;
-  padding: 40px 50px;
+  padding: 30px 40px;
   padding-left: 20px;
   margin-bottom: 20px;
   margin-left: 3px;
-  width: 70%;
+  width: 95%;
 }
 .profile .profile__wrapper .profile__box span {
   font-size: 1.2rem;
